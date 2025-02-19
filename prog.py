@@ -15,9 +15,7 @@ sheet_produtos = workbook['Produtos']
 
 py.PAUSE = 1
 
-py.press("win")
-py.write("chrome")
-py.press("Enter")
+py.hotkey("alt", "tab")
 link = "https://cadastro-produtos-devaprender.netlify.app/"
 py.write(link)
 py.press("enter")
